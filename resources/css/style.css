@@ -1,0 +1,69 @@
+/* Universal Styles */
+
+html {
+  /*font-family: "Roboto", sans-serif;*/
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.17rem;
+}
+/*
+body {
+  margin: 0;
+}
+*/
+/*
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+}
+*/
+
+/****Remove when done****/
+div {
+  border: 1px solid black;
+}
+
+/****Header****/
+header .mobile {
+  display: none;
+}
+
+header .container {
+  display: flex;
+  height: 64px;
+  align-items: center;
+}
+
+header .logo {
+  flex-grow: 1;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+header nav ul {
+  display: flex;
+  margin-right: 24px;
+}
+
+header nav li {
+  padding-left: 1rem;
+}
+
+.logo span {
+  font-size: 1.17rem;
+}
