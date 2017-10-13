@@ -2,20 +2,20 @@
 
 html {
   /*font-family: "Roboto", sans-serif;*/
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2.25rem;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -135,4 +135,50 @@ header nav li {
   line-height: 1.2;
   width: 30%;
   margin-left: 24px;
+}
+
+/****Information section****/
+/*
+.quote-section {
+  width: 60%;
+}
+*/
+.info-image-container {
+  width: 60%;
+}
+
+.info-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info-image {
+  margin: 32px 24px;
+}
+
+.quote-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /*padding-left: 24px;*/
+  /*flex-wrap: wrap;*/
+}
+
+.quote-content h2 {
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.quote-content span {
+  margin-left: 24px;
+}
+
+.by {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.quote {
+  line-height: 1.3;
 }
