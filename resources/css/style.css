@@ -231,4 +231,15 @@ header nav li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 65%;
+}
+
+.details {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.multi-line {
+  line-height: 1.4;
+  padding-right: 30px;
 }
