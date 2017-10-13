@@ -22,6 +22,10 @@ h1, h2, h3 {
   font-weight: 700;
   color: #404040;
 }
+
+.mobile {
+  display: none;
+}
 /*
 span {
   color: #404040;
@@ -49,10 +53,11 @@ div {
 }
 
 /****Header****/
+/*
 header .mobile {
   display: none;
 }
-
+*/
 header .container {
   display: flex;
   height: 64px;
@@ -138,13 +143,13 @@ header nav li {
 }
 
 /****Information section****/
-/*
+
 .quote-section {
   width: 60%;
 }
-*/
+
 .info-image-container {
-  width: 60%;
+  /*width: 60%;*/
 }
 
 .info-image img {
@@ -158,7 +163,7 @@ header nav li {
 }
 
 .quote-content {
-  width: 60%;
+  /*width: 60%;*/
   display: flex;
   flex-direction: column;
   /*padding-left: 24px;*/
@@ -180,5 +185,50 @@ header nav li {
 }
 
 .quote {
-  line-height: 1.3;
+  line-height: 1.4;
+  padding-right: 112px;
+}
+
+.information {
+  display: flex;
+}
+
+.info-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.info-box {
+  display: flex;
+  /*flex-direction: column;
+  width: 40%;*/
+}
+
+.info-box-image {
+  width: 35%;
+  /*margin: 16px;*/
+}
+
+.info-box-image img {
+  width: 100%;
+  height: auto;
+}
+
+.info-box-image.one {
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.info-box-image.two,
+.info-box-image.three {
+  padding: 16px;
+}
+
+.info-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
