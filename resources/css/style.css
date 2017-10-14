@@ -47,11 +47,11 @@ body {
 */
 
 /****Remove when done****/
-/*
+
 div {
   border: 1px solid black;
 }
-*/
+
 /****Header****/
 /*
 header .mobile {
@@ -250,7 +250,7 @@ header nav li {
   background-color: #dcdcdc;
 }
 
-.section-heading {
+.learning-section-heading {
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -305,4 +305,94 @@ header nav li {
 .course-box.five {
   margin-left: 32px;
   margin-right: 32px;
+}
+
+/****Exhibit section****/
+.thesis-section-heading {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+/*
+.exhibit-video-container {
+  width: 60%;
+}
+*/
+.video-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+/*
+.exhibit {
+  display: flex;
+}
+*/
+
+.thesis-video video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-thesis-section {
+  display: flex;
+}
+
+.thesis-box {
+  display: flex;
+}
+
+.thesis-video {
+  /*width: 60%;*/
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.thesis-boxes {
+  width: 40%;
+}
+
+.exhibit-quote-content {
+  margin-left: 24px;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  padding-right: 56px;
+}
+
+.exhibit-quote-content h2 {
+  margin-bottom: 8px;
+}
+/*
+.exhibit-quote {
+  margin-bottom: 32px;
+}
+*/
+
+.thesis-box-image {
+  width: 35%;
+  /*margin: 16px;*/
+}
+
+.thesis-box-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.thesis-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  line-height: 1.4;
+}
+
+.thesis-details h3 {
+  margin-bottom: 8px;
+}
+
+.thesis-box-image {
+  padding: 16px;
 }
