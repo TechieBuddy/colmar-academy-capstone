@@ -237,9 +237,42 @@ header nav li {
 .details {
   margin-top: 8px;
   margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 .multi-line {
-  line-height: 1.4;
+  /*line-height: 1.4;*/
   padding-right: 30px;
 }
+
+/****Learning section****/
+.learning {
+  background-color: #dcdcdc;
+}
+
+.section-heading {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.course-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-details {
+  display: flex;
+  flex-direction: column;
+}
+/*
+.course-image img {
+  height: auto;
+  width: 100%;
+}
+*/
