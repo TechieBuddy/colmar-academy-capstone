@@ -278,7 +278,7 @@ header nav li {
   flex-direction: column;
   padding-left: 16px;
   padding-top: 16px;
-  padding-right: 64px;
+  padding-right: 48px;
   padding-bottom: 24px;
   line-height: 1.4;
 }
