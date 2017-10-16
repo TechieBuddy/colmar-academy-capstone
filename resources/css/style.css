@@ -399,3 +399,54 @@ footer nav li {
 .footer-nav a {
   color: #696969;
 }
+
+/****Media queries****/
+@media only screen and (max-width: 470px) {
+  /****Header****/
+  header .desktop {
+    display: none;
+  }
+
+  header .logo {
+    display: none;
+  }
+
+  header .mobile {
+    display: flex;
+  }
+
+  header .mobile ul {
+    /*display: flex;*/
+    align-items: center;
+  }
+
+  /****Introduction section****/
+  .introduction {
+    flex-direction: column;
+  }
+
+  .intro-image-container {
+    width: 100%;
+  }
+
+  .intro-image {
+    margin: 0px;
+  }
+
+  .learn-box-container {
+    width: 100%;
+    margin-left: 16px;
+    /*margin-right: 32px;*/
+  }
+
+  .learn-box h1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .learn-box span {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    margin-right: 16px;
+  }
+}
