@@ -564,4 +564,24 @@ footer nav li {
   /*.thesis-section-heading {
     padding-bottom: 16px;
   }*/
+
+  .exhibit-quote-content {
+    display: none;
+  }
+
+  .thesis-boxes {
+    display: none;
+  }
+  /*
+  .exhibit-video-container {
+    width: 100%;
+  }
+  */
+  .video-section {
+    width: 100%;
+  }
+
+  .thesis-video {
+    margin: 0px;
+  }
 }
